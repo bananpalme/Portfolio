@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    color: #232730;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.languages li {
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: #D1F5F0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #23a390;
+}
+
+header h3 {
+    color: #EDF7F0;
+    margin-left: 2vw;
+    font-size: 1.4rem;
+}
+
+.headerImg {
+    width: 8rem;
+    height: 10vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.5vw;
+    width: 250px;
+}
+
+header a{
+    color: #EDF7F0;
+    background-color: #115046;
+    padding: 0.8vw;
+    border-radius: 1rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header a:hover {
+    background-color: #5bc2aa;
+}
+
+.name {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 30vh;
+}
+
+main ul {
+    margin: 1rem;
+}
+
+.experience {
+    text-align: center;
+    margin: 15vh;
+    margin-top: 5vh;
+}
+
+.experience a {
+    color: #23a390;
+}
+
+.about {
+    margin: 20vw;
+    margin-top: 0;
+}
+
+.welcome {
+    margin-bottom: 8vh;
+    font-size: 1.5rem;
+}
+
+.about h2 {
+    margin-bottom: 4vh;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #115046;
+    height: 20vh;
+}
+
+footer a, footer h1 {
+    color: #EDF7F0;
+    padding: 1vh;
+}
+
+.contact {
+    padding: 3vh;
+    padding-left: 20vw;
+}
