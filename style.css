@@ -19,8 +19,7 @@ html {
 }
 
 body {
-    background: rgb(157,241,215);
-    background: linear-gradient(0deg, rgba(157,241,215,1) 0%, rgba(209,245,240,1) 55%);
+    background:#D1F5F0;
 }
 
 header {
