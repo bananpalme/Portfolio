@@ -19,7 +19,8 @@ html {
 }
 
 body {
-    background:#D1F5F0;
+    background: rgb(157,241,215);
+    background: linear-gradient(0deg, rgba(157,241,215,1) 0%, rgba(209,245,240,1) 55%);
 }
 
 header {
@@ -154,7 +155,7 @@ footer a, footer h1 {
 
 @media screen and (max-width: 550px) {
     header a {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
 }
