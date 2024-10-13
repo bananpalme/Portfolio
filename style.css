@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
-    color: #232730;
 }
 
 p {
@@ -19,6 +18,7 @@ html {
 }
 
 body {
+    color: #232730;
     background: rgb(157,241,215);
     background: linear-gradient(0deg, rgba(157,241,215,1) 0%, rgba(209,245,240,1) 55%);
 }
@@ -52,15 +52,36 @@ header ul {
     width: 283px;
 }
 
-header a{
+.header-links{
     color: #EDF7F0;
     padding: 0.8vw;
     text-decoration: none;
     transition: 0.5s;
 }
 
-header a:hover {
-    color: #115046;
+.header-links:hover {
+
+    color: #bDc7c0;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+.dark-mode {
+    width: 5vw;
+    height: 4vh;
+    margin-right: 4vw;
+    cursor: pointer;
+    background-color: #d1f5f0;
+    border: solid black 1px;
+    border-radius: 10px;
+    transition: 0.12s ease-out;
+}
+
+.dark-mode:hover {
+    background-color: rgba(150,190,190,1);
 }
 
 .name {
