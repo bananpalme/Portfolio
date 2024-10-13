@@ -8,6 +8,8 @@ let getDarkModeImg = document.querySelector('.dark-mode-img')
 getDarkModeButton.style.display = 'flex'
 getDarkModeButton.style.justifyContent = 'center'
 
+getDarkModeImg.src = './assets/light_mode.svg'
+
 let darkMode = false
 
 const changeColourMode = () => {
